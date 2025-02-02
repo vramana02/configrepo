@@ -1,7 +1,7 @@
 ---
 spring:
   application:
-    name: athenaeurekamaster
+    name: service-registry
   config:
     activate:
       on-profile: master
@@ -17,7 +17,7 @@ server:
   port: 8762
 spring:
   application:
-    name: athenaeurekaslave
+    name: service-registry-salve
   config:
     activate:
       on-profile: slave
