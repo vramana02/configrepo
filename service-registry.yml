@@ -17,7 +17,7 @@ server:
   port: 8762
 spring:
   application:
-    name: service-registry-salve
+    name: service-registry
   config:
     activate:
       on-profile: slave
